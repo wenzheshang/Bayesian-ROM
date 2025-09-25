@@ -1,0 +1,37 @@
+{
+  "stats": {
+    "submitted": 1,
+    "finished": 1,
+    "running": 0
+  },
+  "data": [
+    {
+      "config_id": 1,
+      "instance": null,
+      "seed": 209652396,
+      "budget": null,
+      "cost": [
+        -0.4384000903772661,
+        -0.7341337027345954,
+        0.038
+      ],
+      "time": 52.22145867347717,
+      "cpu_time": 113.078125,
+      "status": 1,
+      "starttime": 1757905997.162363,
+      "endtime": 1757906049.3857863,
+      "additional_info": {}
+    }
+  ],
+  "configs": {
+    "1": {
+      "x_angle1": 1,
+      "x_angle2": 4,
+      "x_temperature": 290.8600630536676,
+      "x_velocity": 0.0384710494801
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol"
+  }
+}

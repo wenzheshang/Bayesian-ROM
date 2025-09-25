@@ -1,0 +1,40 @@
+{
+  "stats": {
+    "submitted": 1,
+    "finished": 1,
+    "running": 0
+  },
+  "data": [
+    {
+      "config_id": 1,
+      "instance": null,
+      "seed": 209652396,
+      "budget": null,
+      "cost": [
+        Infinity,
+        Infinity,
+        Infinity
+      ],
+      "time": 0.0,
+      "cpu_time": 5.671875,
+      "status": 2,
+      "starttime": 1757857352.116009,
+      "endtime": 1757857352.1235404,
+      "additional_info": {
+        "traceback": "Traceback (most recent call last):\n  File \"F:\\Thinking\\ACN\\envs\\SMAC\\lib\\site-packages\\smac\\runner\\target_function_runner.py\", line 190, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"F:\\Thinking\\ACN\\envs\\SMAC\\lib\\site-packages\\smac\\runner\\target_function_runner.py\", line 264, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"d:\\NextPaper\\FastOpt\\BayesianOPTwithiteration.py\", line 94, in target_function\n    coords=COORDSINPUT,\nNameError: name 'COORDSINPUT' is not defined\n",
+        "error": "NameError(\"name 'COORDSINPUT' is not defined\")"
+      }
+    }
+  ],
+  "configs": {
+    "1": {
+      "x_angle1": 1,
+      "x_angle2": 4,
+      "x_temperature": 290.8600630536676,
+      "x_velocity": 0.0384710494801
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol"
+  }
+}
